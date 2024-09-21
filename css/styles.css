@@ -11,7 +11,8 @@ body {
     line-height: 1.5;
     text-align: left;
     letter-spacing: 0.02em;
-    margin: 0;
+    margin: auto;
+    max-width: 1440px;
 }
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
@@ -122,6 +123,11 @@ img {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../images/foto.hero/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
 }
 .hero-title {
    font-size: 56px;
@@ -180,6 +186,15 @@ img {
  width: calc((100% - 72px) / 4);
  display: flex;
  flex-direction: column;
+}
+.advantages-item-icon{
+    display: flex;
+    justify-content: center;
+    background: #F4F4FD;
+    padding: 24px 0;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .title-advantages {
     color: #2E2F42;
