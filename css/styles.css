@@ -236,6 +236,7 @@ img {
     margin-bottom: 24px;
 }
 .our-team-cocial-item {
+    display: flex;
 
 }
 .our-team-social-linc {
