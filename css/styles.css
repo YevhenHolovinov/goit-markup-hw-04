@@ -241,6 +241,7 @@ img {
 }
 .our-team-social-linc {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
@@ -370,6 +371,5 @@ img {
 }
 .social-list-link:hover {
     background-color: #31D0AA;
-    ;
     fill: #F4F4FD;
 }
